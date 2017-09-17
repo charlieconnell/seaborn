@@ -528,7 +528,7 @@ def hue_type(data):
         if np.array_equal(data, int_data):
             return "discrete"
         else:
-            return "numeric"
+            return "continuous"
     except ValueError:
         return "categorical"
 
